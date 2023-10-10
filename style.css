@@ -63,7 +63,7 @@ form button{
 }
 
 .tabela{
-    display: flex;
+    display: none;
     width: 450px;
     max-width: 100%;
     padding: 10px;
