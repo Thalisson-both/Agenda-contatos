@@ -39,6 +39,3 @@ function adicionar(nome, contato) {
 
     listaDeContatos.push(nome); 
 }
-
-
-
