@@ -15,6 +15,10 @@ h1 {
     font-weight: bold;
 }
 
+h3 {
+    margin-bottom: 35px;
+}
+
 .containter {
     display: flex;
     width: 450px;
@@ -31,7 +35,7 @@ h1 {
 
 #form {
     padding-top: 15px;
-    text-align: center;
+    text-align: start;
     width: 300px;
 }
 
@@ -42,23 +46,33 @@ input {
     width: 100%;
     height: 30px;
     border: none;
+    border-radius: 2px;
     border-bottom: 1px solid black;
 }
 
 form button{
-    padding: 5px;
+    padding: 8px;
     margin: 12px 0;
+    width: 100%;
+    border-radius: 2px;
+    background-color: #585aff;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    border: none;
 }
 
 .tabela{
     display: flex;
-    width: 600px;
+    width: 450px;
     max-width: 100%;
     padding: 10px;
-    margin: auto;align-items: center;
+    margin: auto;
+    align-items: center;
     margin-top: 30px;
-    background-color: azure;
+    background-color: #2c2c2c;
     border: 1px solid rgba(58, 58, 58, 0.527);
+    border-radius: 10px;
 }
 
 table{
@@ -69,6 +83,7 @@ table{
 table td, th{
     text-align: center;
     border-bottom: 1px solid rgba(58, 58, 58, 0.527);
+    padding: 5px;
 }
 
 
